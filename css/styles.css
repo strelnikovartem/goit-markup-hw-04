@@ -234,7 +234,17 @@ padding-bottom: 188px;
 width: calc((100% - 3 * 24px) / 4);
 }
 
-
+.icon-container {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border: 1px solid #8e8f99;
+        border-radius: 4px;
+        width: 264px;
+        height: 112px;
+        background: #f4f4fd;
+        margin-bottom: 8px;
+}
 
 .features-subtitle {
     font-weight: 500;
@@ -293,6 +303,7 @@ width: calc((100% - 3 * 24px) / 4);
 
 .team-name {
         padding: 32px 0;
+        
 }
 
 .team-subtitle {
@@ -312,6 +323,33 @@ width: calc((100% - 3 * 24px) / 4);
         letter-spacing: 0.02em;
         text-align: center;
         color: #434455;
+        margin-bottom: 8px;
+}
+
+.icon-list {
+        display: flex;
+        justify-content: center;
+        gap: 24px;
+
+}
+
+.icon-item {
+        width: 40px;
+        height: 40px;
+}
+
+.icon-link {
+        width: 100%;
+        height: 100%;
+        background-color: #4d5ae5;
+        border-radius: 50%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+}
+
+.soc-icon {
+        fill: #4d5ae5;
 }
 
 .portfolio {
