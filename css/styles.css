@@ -358,7 +358,7 @@ width: calc((100% - 3 * 24px) / 4);
 
 .soc-icon {
         fill: #f4f4fd;
-        list-style: none;
+        stroke: #FFFFFF;
 }
 
 .portfolio {
@@ -454,5 +454,19 @@ width: calc((100% - 3 * 24px) / 4);
             color: #f4f4fd;
             max-width: 264px;
 }
+
+.footer-soc {
+
+}
+
+.footer-soc-text {
+        
+}
+
+.footer-soc-list {}
+
+.footer-soc-item {}
+
+.footer-soc-icon {}
 
 
